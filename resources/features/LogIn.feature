@@ -32,7 +32,7 @@ Feature: Login functionality
 
       Given User is on login page
       When User enters invalid "<Username>" and "<Password>" and clicks SignIn
-      Then User should stay on home page.
+      Then User should stay on LogIn page.
 
       Examples:
         |Username|   Password     |

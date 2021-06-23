@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-22T14:29:04.331Z",
+        "start_timestamp": "2021-06-22T21:09:48.359Z",
         "before": [
           {
             "result": {
-              "duration": 9662162000,
+              "duration": 3611154000,
               "status": "passed"
             },
             "match": {
@@ -22,11 +22,11 @@
         "after": [
           {
             "result": {
-              "duration": 1090736600,
+              "duration": 128003000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 678186400,
+              "duration": 200670000,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1472085300,
+              "duration": 1010229000,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 69814500,
+              "duration": 5293000,
               "status": "passed"
             },
             "line": 8,
@@ -87,11 +87,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:17.450Z",
+        "start_timestamp": "2021-06-22T21:09:53.390Z",
         "before": [
           {
             "result": {
-              "duration": 2752644400,
+              "duration": 2250246000,
               "status": "passed"
             },
             "match": {
@@ -106,11 +106,11 @@
         "after": [
           {
             "result": {
-              "duration": 1286559400,
+              "duration": 106794000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -119,7 +119,7 @@
         "steps": [
           {
             "result": {
-              "duration": 349063500,
+              "duration": 140049000,
               "status": "passed"
             },
             "line": 6,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 1343408300,
+              "duration": 846312000,
               "status": "passed"
             },
             "line": 7,
@@ -153,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 27931600,
+              "duration": 9602000,
               "status": "passed"
             },
             "line": 8,
@@ -171,11 +171,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:23.228Z",
+        "start_timestamp": "2021-06-22T21:09:56.762Z",
         "before": [
           {
             "result": {
-              "duration": 2631962800,
+              "duration": 2089921000,
               "status": "passed"
             },
             "match": {
@@ -190,11 +190,11 @@
         "after": [
           {
             "result": {
-              "duration": 1155909500,
+              "duration": 148317000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -203,7 +203,7 @@
         "steps": [
           {
             "result": {
-              "duration": 307170300,
+              "duration": 147060000,
               "status": "passed"
             },
             "line": 6,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 1293533500,
+              "duration": 864283000,
               "status": "passed"
             },
             "line": 7,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 48868500,
+              "duration": 4926000,
               "status": "passed"
             },
             "line": 8,
@@ -255,11 +255,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:28.684Z",
+        "start_timestamp": "2021-06-22T21:10:00.038Z",
         "before": [
           {
             "result": {
-              "duration": 2566136700,
+              "duration": 2071454000,
               "status": "passed"
             },
             "match": {
@@ -274,11 +274,11 @@
         "after": [
           {
             "result": {
-              "duration": 1217740400,
+              "duration": 117832000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -287,7 +287,7 @@
         "steps": [
           {
             "result": {
-              "duration": 300197300,
+              "duration": 137725000,
               "status": "passed"
             },
             "line": 19,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 667215600,
+              "duration": 408732000,
               "status": "passed"
             },
             "line": 20,
@@ -321,7 +321,7 @@
           },
           {
             "result": {
-              "duration": 78792500,
+              "duration": 26561000,
               "status": "passed"
             },
             "line": 21,
@@ -345,11 +345,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:33.528Z",
+        "start_timestamp": "2021-06-22T21:10:02.819Z",
         "before": [
           {
             "result": {
-              "duration": 2763608700,
+              "duration": 2048254000,
               "status": "passed"
             },
             "match": {
@@ -364,11 +364,11 @@
         "after": [
           {
             "result": {
-              "duration": 1062158700,
+              "duration": 107749000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -377,7 +377,7 @@
         "steps": [
           {
             "result": {
-              "duration": 425861400,
+              "duration": 139009000,
               "status": "passed"
             },
             "line": 19,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 794875200,
+              "duration": 429094000,
               "status": "passed"
             },
             "line": 20,
@@ -411,7 +411,7 @@
           },
           {
             "result": {
-              "duration": 86763100,
+              "duration": 29455000,
               "status": "passed"
             },
             "line": 21,
@@ -435,11 +435,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:38.675Z",
+        "start_timestamp": "2021-06-22T21:10:05.588Z",
         "before": [
           {
             "result": {
-              "duration": 2969058600,
+              "duration": 2121328000,
               "status": "passed"
             },
             "match": {
@@ -454,11 +454,11 @@
         "after": [
           {
             "result": {
-              "duration": 1377316500,
+              "duration": 105358000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -467,7 +467,7 @@
         "steps": [
           {
             "result": {
-              "duration": 369013800,
+              "duration": 127127000,
               "status": "passed"
             },
             "line": 19,
@@ -479,7 +479,7 @@
           },
           {
             "result": {
-              "duration": 721069300,
+              "duration": 421479000,
               "status": "passed"
             },
             "line": 20,
@@ -501,7 +501,7 @@
           },
           {
             "result": {
-              "duration": 95746000,
+              "duration": 32888000,
               "status": "passed"
             },
             "line": 21,
@@ -525,11 +525,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:44.219Z",
+        "start_timestamp": "2021-06-22T21:10:08.413Z",
         "before": [
           {
             "result": {
-              "duration": 2908222000,
+              "duration": 2217514000,
               "status": "passed"
             },
             "match": {
@@ -544,11 +544,11 @@
         "after": [
           {
             "result": {
-              "duration": 1094072000,
+              "duration": 116776000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -557,7 +557,7 @@
         "steps": [
           {
             "result": {
-              "duration": 362033500,
+              "duration": 153601000,
               "status": "passed"
             },
             "line": 19,
@@ -569,7 +569,7 @@
           },
           {
             "result": {
-              "duration": 854714700,
+              "duration": 409287000,
               "status": "passed"
             },
             "line": 20,
@@ -591,7 +591,7 @@
           },
           {
             "result": {
-              "duration": 72806600,
+              "duration": 26782000,
               "status": "passed"
             },
             "line": 21,
@@ -615,11 +615,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:49.523Z",
+        "start_timestamp": "2021-06-22T21:10:11.350Z",
         "before": [
           {
             "result": {
-              "duration": 3021922900,
+              "duration": 2161371000,
               "status": "passed"
             },
             "match": {
@@ -634,11 +634,11 @@
         "after": [
           {
             "result": {
-              "duration": 1237306500,
+              "duration": 106131000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -647,7 +647,7 @@
         "steps": [
           {
             "result": {
-              "duration": 416878300,
+              "duration": 146049000,
               "status": "passed"
             },
             "line": 19,
@@ -659,7 +659,7 @@
           },
           {
             "result": {
-              "duration": 752987400,
+              "duration": 457715000,
               "status": "passed"
             },
             "line": 20,
@@ -681,7 +681,7 @@
           },
           {
             "result": {
-              "duration": 113696100,
+              "duration": 29702000,
               "status": "passed"
             },
             "line": 21,
@@ -705,11 +705,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:29:55.079Z",
+        "start_timestamp": "2021-06-22T21:10:14.266Z",
         "before": [
           {
             "result": {
-              "duration": 2747653000,
+              "duration": 2252525000,
               "status": "passed"
             },
             "match": {
@@ -724,11 +724,11 @@
         "after": [
           {
             "result": {
-              "duration": 1014288400,
+              "duration": 115659000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -737,7 +737,7 @@
         "steps": [
           {
             "result": {
-              "duration": 311167000,
+              "duration": 139241000,
               "status": "passed"
             },
             "line": 33,
@@ -749,7 +749,7 @@
           },
           {
             "result": {
-              "duration": 487697600,
+              "duration": 230302000,
               "status": "passed"
             },
             "line": 34,
@@ -771,13 +771,13 @@
           },
           {
             "result": {
-              "duration": 2046527500,
+              "duration": 10791000,
               "status": "passed"
             },
             "line": 35,
-            "name": "User should stay on home page.",
+            "name": "User should stay on LogIn page.",
             "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_home_page()"
+              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_log_in_page()"
             },
             "keyword": "Then "
           }
@@ -789,11 +789,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:30:01.695Z",
+        "start_timestamp": "2021-06-22T21:10:17.027Z",
         "before": [
           {
             "result": {
-              "duration": 2810485500,
+              "duration": 2080546000,
               "status": "passed"
             },
             "match": {
@@ -808,11 +808,11 @@
         "after": [
           {
             "result": {
-              "duration": 1397423200,
+              "duration": 106650000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -821,7 +821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 433838700,
+              "duration": 129478000,
               "status": "passed"
             },
             "line": 33,
@@ -833,7 +833,7 @@
           },
           {
             "result": {
-              "duration": 421873600,
+              "duration": 211364000,
               "status": "passed"
             },
             "line": 34,
@@ -855,13 +855,13 @@
           },
           {
             "result": {
-              "duration": 2051515000,
+              "duration": 4527000,
               "status": "passed"
             },
             "line": 35,
-            "name": "User should stay on home page.",
+            "name": "User should stay on LogIn page.",
             "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_home_page()"
+              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_log_in_page()"
             },
             "keyword": "Then "
           }
@@ -873,11 +873,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:30:08.822Z",
+        "start_timestamp": "2021-06-22T21:10:19.568Z",
         "before": [
           {
             "result": {
-              "duration": 2781562100,
+              "duration": 2255551000,
               "status": "passed"
             },
             "match": {
@@ -892,11 +892,11 @@
         "after": [
           {
             "result": {
-              "duration": 1037810400,
+              "duration": 114945000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -905,7 +905,7 @@
         "steps": [
           {
             "result": {
-              "duration": 371008500,
+              "duration": 143960000,
               "status": "passed"
             },
             "line": 33,
@@ -917,7 +917,7 @@
           },
           {
             "result": {
-              "duration": 412895600,
+              "duration": 157315000,
               "status": "passed"
             },
             "line": 34,
@@ -939,13 +939,13 @@
           },
           {
             "result": {
-              "duration": 2063507400,
+              "duration": 5281000,
               "status": "passed"
             },
             "line": 35,
-            "name": "User should stay on home page.",
+            "name": "User should stay on LogIn page.",
             "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_home_page()"
+              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_log_in_page()"
             },
             "keyword": "Then "
           }
@@ -957,11 +957,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:30:15.508Z",
+        "start_timestamp": "2021-06-22T21:10:22.257Z",
         "before": [
           {
             "result": {
-              "duration": 2875310100,
+              "duration": 2401761000,
               "status": "passed"
             },
             "match": {
@@ -976,11 +976,11 @@
         "after": [
           {
             "result": {
-              "duration": 1164883400,
+              "duration": 98036000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -989,7 +989,7 @@
         "steps": [
           {
             "result": {
-              "duration": 503652500,
+              "duration": 142411000,
               "status": "passed"
             },
             "line": 45,
@@ -1001,7 +1001,7 @@
           },
           {
             "result": {
-              "duration": 35904000,
+              "duration": 15915000,
               "status": "passed"
             },
             "line": 46,
@@ -1019,7 +1019,7 @@
           },
           {
             "result": {
-              "duration": 79796600,
+              "duration": 54609000,
               "status": "passed"
             },
             "line": 47,
@@ -1031,7 +1031,7 @@
           },
           {
             "result": {
-              "duration": 94736300,
+              "duration": 26300000,
               "status": "passed"
             },
             "line": 48,
@@ -1043,7 +1043,7 @@
           },
           {
             "result": {
-              "duration": 95744000,
+              "duration": 23688000,
               "status": "passed"
             },
             "line": 49,
@@ -1081,11 +1081,263 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-22T14:30:20.373Z",
+        "start_timestamp": "2021-06-22T21:10:25.032Z",
         "before": [
           {
             "result": {
-              "duration": 2869327500,
+              "duration": 2110513000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User successfully log out from system",
+        "description": "",
+        "id": "logout-functionality;user-successfully-log-out-from-system",
+        "after": [
+          {
+            "result": {
+              "duration": 111371000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1018215000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Homepage after sign in",
+            "match": {
+              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1110225000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on LogOut button",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_clicks_on_log_out_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1010275000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be directed on LogOut confirmation page",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_should_be_directed_on_log_out_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1021552000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see header \"Are you sure you want to log out?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Are you sure you want to log out?\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.Logout_Steps_Definition.user_should_see_header(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139888000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on LogOut Confirmation button",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_clicks_on_log_out_confirmation_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1004553000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be directed to Log In page",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_should_be_directed_to_log_in_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25057000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see message \"You have been signed out\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You have been signed out\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Logout_Steps_Definition.user_should_see_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T21:10:32.602Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2512590000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "System should allow user to stay Logged In if user navigates back from Logout confirmation page",
+        "description": "",
+        "id": "logout-functionality;system-should-allow-user-to-stay-logged-in-if-user-navigates-back-from-logout-confirmation-page",
+        "after": [
+          {
+            "result": {
+              "duration": 119782000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1053188000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on the Homepage after sign in",
+            "match": {
+              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1124196000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on LogOut button",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_clicks_on_log_out_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1010353000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be directed on LogOut confirmation page",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_should_be_directed_on_log_out_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2212430000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click navigate back and refreshes page",
+            "match": {
+              "location": "stepDefinitions.Logout_Steps_Definition.user_click_navigate_back_and_refreshes_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2010504000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should stay on home page.",
+            "match": {
+              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Logout functionality",
+    "description": "",
+    "id": "logout-functionality",
+    "keyword": "Feature",
+    "uri": "file:resources/features/LogOut.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-22T21:10:42.659Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2138969000,
               "status": "passed"
             },
             "match": {
@@ -1100,11 +1352,11 @@
         "after": [
           {
             "result": {
-              "duration": 1310494400,
+              "duration": 106536000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -1113,7 +1365,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1985689200,
+              "duration": 1037189000,
               "status": "passed"
             },
             "line": 7,
@@ -1125,7 +1377,7 @@
           },
           {
             "result": {
-              "duration": 379981900,
+              "duration": 114929000,
               "status": "passed"
             },
             "line": 8,
@@ -1147,7 +1399,7 @@
           },
           {
             "result": {
-              "duration": 322161200,
+              "duration": 127594000,
               "status": "passed"
             },
             "line": 9,
@@ -1159,7 +1411,7 @@
           },
           {
             "result": {
-              "duration": 68793300,
+              "duration": 25108000,
               "status": "passed"
             },
             "line": 10,
@@ -1177,11 +1429,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:30:27.344Z",
+        "start_timestamp": "2021-06-22T21:10:46.225Z",
         "before": [
           {
             "result": {
-              "duration": 2997987900,
+              "duration": 2130451000,
               "status": "passed"
             },
             "match": {
@@ -1196,11 +1448,11 @@
         "after": [
           {
             "result": {
-              "duration": 904580400,
+              "duration": 97378000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -1209,7 +1461,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1795109500,
+              "duration": 1150000000,
               "status": "passed"
             },
             "line": 13,
@@ -1221,7 +1473,7 @@
           },
           {
             "result": {
-              "duration": 104720600,
+              "duration": 37899000,
               "status": "passed"
             },
             "line": 14,
@@ -1233,7 +1485,7 @@
           },
           {
             "result": {
-              "duration": 349066000,
+              "duration": 185845000,
               "status": "passed"
             },
             "line": 15,
@@ -1245,7 +1497,7 @@
           },
           {
             "result": {
-              "duration": 123669800,
+              "duration": 47971000,
               "status": "passed"
             },
             "line": 16,
@@ -1263,11 +1515,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:30:33.634Z",
+        "start_timestamp": "2021-06-22T21:10:49.884Z",
         "before": [
           {
             "result": {
-              "duration": 2729701500,
+              "duration": 2098431000,
               "status": "passed"
             },
             "match": {
@@ -1282,11 +1534,11 @@
         "after": [
           {
             "result": {
-              "duration": 1350386000,
+              "duration": 98648000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -1295,7 +1547,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1872990700,
+              "duration": 875781000,
               "status": "passed"
             },
             "line": 20,
@@ -1307,7 +1559,7 @@
           },
           {
             "result": {
-              "duration": 102725200,
+              "duration": 23953000,
               "status": "passed"
             },
             "line": 21,
@@ -1319,7 +1571,7 @@
           },
           {
             "result": {
-              "duration": 77789300,
+              "duration": 15719000,
               "status": "passed"
             },
             "line": 22,
@@ -1331,7 +1583,7 @@
           },
           {
             "result": {
-              "duration": 81782900,
+              "duration": 19835000,
               "status": "passed"
             },
             "line": 23,
@@ -1343,7 +1595,7 @@
           },
           {
             "result": {
-              "duration": 46874400,
+              "duration": 13734000,
               "status": "passed"
             },
             "line": 24,
@@ -1361,11 +1613,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T14:30:39.908Z",
+        "start_timestamp": "2021-06-22T21:10:53.039Z",
         "before": [
           {
             "result": {
-              "duration": 2861351400,
+              "duration": 2056991000,
               "status": "passed"
             },
             "match": {
@@ -1380,11 +1632,11 @@
         "after": [
           {
             "result": {
-              "duration": 915551100,
+              "duration": 124517000,
               "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.Hooks.after()"
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -1393,7 +1645,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1782231800,
+              "duration": 1268044000,
               "status": "passed"
             },
             "line": 29,
@@ -1405,7 +1657,7 @@
           },
           {
             "result": {
-              "duration": 374998600,
+              "duration": 117882000,
               "status": "passed"
             },
             "line": 30,
@@ -1427,7 +1679,7 @@
           },
           {
             "result": {
-              "duration": 365024100,
+              "duration": 130995000,
               "status": "passed"
             },
             "line": 31,
@@ -1439,7 +1691,7 @@
           },
           {
             "result": {
-              "duration": 10070071400,
+              "duration": 10069443000,
               "status": "passed"
             },
             "line": 32,

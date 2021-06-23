@@ -7,6 +7,8 @@ import utils.Driver;
 
 public class LogOutPage {
 
+    public final String LogOutConfirmationPageTitle = "Confirm Log Out?";
+
     public LogOutPage() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
@@ -14,11 +16,11 @@ public class LogOutPage {
     @FindBy(xpath = "//button[text()='Logout']")
     public WebElement logOutBtn;
 
-    @FindBy(xpath="//h2[text()='Are you sure you want to log out?']")
+    @FindBy(css = "[class=\"form-signin-heading\"]")
     public WebElement confirmLogoutText;
 
     @FindBy(xpath="//button[text()='Log Out']")
-    public WebElement logoutPagelogOutElem;
+    public WebElement logoutConfirmationButton;
 
     @FindBy(xpath="//div[text()='You have been signed out']")
     public WebElement alertSignedOutText;

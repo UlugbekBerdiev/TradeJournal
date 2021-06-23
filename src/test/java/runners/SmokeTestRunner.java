@@ -17,5 +17,5 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         tags = "@Smoke"
 )
-public class SmokeTestRunners {
+public class SmokeTestRunner {
 }

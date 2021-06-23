@@ -15,21 +15,29 @@ public class HomePage {
 
     public final String pageTitle = "Transactions";
 
+    @FindBy(xpath = "//button[text()=\"Logout\"]")
+    public WebElement signOutButton;
+
     //Created by Beka
     @FindBy(xpath = "//a[text()='Home ']")
     public WebElement labelHome;
+
     //Created by Beka
     @FindBy(name= "symbol")
     public WebElement symbolInput;
+
     //Created by Beka
     @FindBy(name= "date")
     public WebElement dateInput;
+
     //Created by Beka
     @FindBy(xpath = "//button[text()='Search']")
     public WebElement searchButton;
+
     //Created by Beka
     @FindBy(xpath = "//td[text()='ORPR']")
     public WebElement secondColomFirsRowFromTable;
+
     @FindBy(xpath = "//thead")
     public WebElement headerOfTable;
 

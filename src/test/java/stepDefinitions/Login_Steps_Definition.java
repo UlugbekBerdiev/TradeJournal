@@ -44,7 +44,7 @@ public class Login_Steps_Definition {
     @Then("User should stay on home page.")
     public void user_should_stay_on_home_page() {
         BrowserUtils.wait(2);
-        Assert.assertEquals("Please sign in", loginPage.mainLogInHeader.getText());
+        Assert.assertEquals(homePage.pageTitle, Driver.getDriver().getTitle());
     }
     @Then("User should see {string}")
     public void user_should_see(String header) {
@@ -63,6 +63,8 @@ public class Login_Steps_Definition {
     public void user_should_see_sign_in_button() {
         Assert.assertTrue(BrowserUtils.isPresent(loginPage.signInButton));
     }
-
-
+    @Then("User should stay on LogIn page.")
+    public void user_should_stay_on_log_in_page() {
+        Assert.assertEquals(loginPage.pageTitle,Driver.getDriver().getTitle());
+    }
 }
