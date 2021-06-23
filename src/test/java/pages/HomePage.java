@@ -35,7 +35,9 @@ public class HomePage {
 
     @FindBy(xpath = "//tr")
     public List<WebElement> ListOfAllRowsFromTable;
-
-
-
+//created by Hakan
+    @FindBy(xpath = "//table[@class = 'table table-bordered table-striped']")
+    public WebElement tableView;
+    @FindBy(xpath = "//a[@class = 'btn btn-danger btn-sm']")
+    public WebElement deleteButton;
 }
