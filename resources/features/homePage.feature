@@ -1,3 +1,4 @@
+@Smoke
 Feature: Stock Trade homepage components verification
 
 
