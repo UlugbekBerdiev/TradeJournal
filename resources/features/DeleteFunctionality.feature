@@ -7,10 +7,7 @@ Feature: Delete Button Functionality
 	
 Scenario:  Verify that user can successfully delete stock table in UI
 
-		Given That user is on login page
-        And the user enters valid username "Hakan" and password "SuperHakan123!" and clicks SignIn
-        Then User should be directed to home page
-		Then verify user is on the home page
+		Given User is on the Homepage after sign in
 		When the user clicks on the delete button
 		Then a pop-up modal should appear with the text: Are you sure you want to delete this record?
 		When the user clicks on Ok button
@@ -19,10 +16,7 @@ Scenario:  Verify that user can successfully delete stock table in UI
 		
 Scenario: Verify that user can navigate from deleting a stock back to home page
 		
-		Given That user is on login page
-        And the user enters valid username "Hakan" and password "SuperHakan123!" and clicks SignIn
-        Then User should be directed to home page
-		Then verify user is on the home page
+		Given User is on the Homepage after sign in
 		When the user clicks on the delete button
 		Then a pop-up modal should appear with the text: Are you sure you want to delete this record?
 		When the user clicks on Cancel button
