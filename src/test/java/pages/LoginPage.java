@@ -24,6 +24,10 @@ public class LoginPage {
     @FindBy(css = "[role=\"alert\"]")
     public WebElement alertMessage;
 
+    @FindBy(css = "[class=\"alert alert-success\"]")
+    public WebElement logoutSuccessfulMessage;
+
 
     public final String pageTitle = "Please sign in";
+
 }

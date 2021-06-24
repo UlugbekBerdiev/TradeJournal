@@ -22,12 +22,15 @@ public class HomePage {
     //Created by Beka
     @FindBy(xpath = "//a[text()='Home ']")
     public WebElement labelHome;
+
     //Created by Beka
     @FindBy(name= "symbol")
     public WebElement symbolInput;
+
     //Created by Beka
     @FindBy(name= "date")
     public WebElement dateInput;
+
     //Created by Beka
     @FindBy(xpath = "//button[text()='Search']")
     public WebElement searchButton;
@@ -35,10 +38,19 @@ public class HomePage {
     //Created by Beka
     @FindBy(xpath = "//td[text()='ORPR']")
     public WebElement secondColomFirsRowFromTable;
+
     @FindBy(xpath = "//thead")
     public WebElement headerOfTable;
+
     @FindBy(xpath = "//tr")
     public List<WebElement> ListOfAllRowsFromTable;
+
+//created by Hakan
+    @FindBy(xpath = "//table[@class = 'table table-bordered table-striped']")
+    public WebElement tableView;
+    @FindBy(xpath = "//a[@class = 'btn btn-danger btn-sm']")
+    public WebElement deleteButton;
+
 
     //created by Liubomyr
     @FindBy (xpath= "//img[@src='https://www.pinclipart.com/picdir/middle/11-111719_clipart-arrows-graph-trading-icon-png-download.png']")
@@ -81,8 +93,19 @@ public class HomePage {
     public WebElement gainLossCol;
     @FindBy(css = (" thead tr th:nth-child(8)"))
     public WebElement action2Col;
-
+    @FindBy(xpath = ("//title[text()='Home - Finom Group']"))
+    public WebElement finomGroupPageLogo;
+    @FindBy(xpath = ("//head[@id='head']/title"))
+    public WebElement calculatorPageLogo;
+    @FindBy(xpath = ("//a[@class='logo']"))
+    public WebElement finwizPageLogo;
 }
+
+
+
+
+
+
 
 
 
