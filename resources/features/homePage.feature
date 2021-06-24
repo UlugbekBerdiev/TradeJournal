@@ -44,8 +44,8 @@ Feature: Stock Trade homepage components verification
 
   Scenario: User should be able to navigate to Vol ETF/ETN Price converter page
     Given User is on the Homepage after sign in
-    And User click on Vol ETF/ETN Price converter tab
-    Then User should be able to navigate to Vol ETF/ETN Price converter page
+    And User click on Vol ETF-ETN Price converter tab
+    Then User should be able to navigate to Vol ETF-ETN Price converter page
 
 
   Scenario: User should be able to see Symbol search box, located to the right side of Tools tab
@@ -55,7 +55,7 @@ Feature: Stock Trade homepage components verification
 
   Scenario: User should be able to see textbox mm/dd/yyyy and calender date picker, located to the right side of Symbol search box
     Given  User is on the Homepage after sign in
-    Then textbox mm/dd/yyyy and calender date picker is displayed
+    Then textbox mm-dd-yyyy and calender date picker is displayed
 
 
   Scenario: User should be able to see Search button, located to the right side of textbox mm/dd/yyyy

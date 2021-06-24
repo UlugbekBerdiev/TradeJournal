@@ -125,11 +125,11 @@ BrowserUtils.clickWithJS(homepage.todaysMarketTab);
         BrowserUtils.switchBackToOriginWindow(originWindow);
     }
 //User click Tools tab should be able to navigate to converter website
-    @And("User click on Vol ETF\\/ETN Price converter tab")
+    @And("User click on Vol ETF-ETN Price converter tab")
     public void user_click_on_vol_etf_etn_price_converter_tab() {
 
     }
-    @Then("User should be able to navigate to Vol ETF\\/ETN Price converter page")
+    @Then("User should be able to navigate to Vol ETF-ETN Price converter page")
     public void user_should_be_able_to_navigate_to_vol_etf_etn_price_converter_page() {
 
 //bug
@@ -140,7 +140,7 @@ BrowserUtils.clickWithJS(homepage.todaysMarketTab);
 Assert.assertTrue(homepage.symbolInput.isDisplayed());
     }
 //User should be able to see textbox mm/dd/yyyy
-    @Then("textbox mm\\/dd\\/yyyy and calender date picker is displayed")
+    @Then("textbox mm-dd-yyyy and calender date picker is displayed")
     public void textbox_mm_dd_yyyy_and_calender_date_picker_is_displayed() {
         Assert.assertTrue(homepage.dateInput.isDisplayed());
     }
