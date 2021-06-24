@@ -1,11 +1,9 @@
 package utils;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-
-import static org.junit.Assert.assertFalse;
 
 public class BrowserUtils {
 
@@ -34,6 +32,22 @@ public class BrowserUtils {
         try {
             return element.isDisplayed();
         } catch (Exception e) { return false; }
+    }
+    public static void switchToNewWindow(){
+        // Switch to new window opened
+        for(String winHandle : Driver.getDriver().getWindowHandles()){
+            Driver.getDriver().switchTo().window(winHandle);
+        }}
+    public static void switchBackToOriginWindow(String originWindow) {
+        // Close the new window, if that window no more required
+        Driver.getDriver().close();
+        // Switch back to original browser (first window)
+        Driver.getDriver().switchTo().window( originWindow );
+
+    }
+    public static void clickWithJS(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
     }
 }
 

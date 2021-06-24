@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-21T15:29:13.492Z",
+        "start_timestamp": "2021-06-22T23:45:24.990Z",
         "line": 11,
         "name": "System should authorize user with VALID credentials",
         "description": "",
@@ -22,7 +22,6 @@
           },
           {
             "result": {
-              "duration": 134000,
               "status": "skipped"
             },
             "line": 6,
@@ -32,7 +31,6 @@
           },
           {
             "result": {
-              "duration": 165000,
               "status": "skipped"
             },
             "line": 7,
@@ -43,7 +41,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.593Z",
+        "start_timestamp": "2021-06-22T23:45:25.093Z",
         "line": 12,
         "name": "System should authorize user with VALID credentials",
         "description": "",
@@ -62,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 370000,
+              "duration": 999100,
               "status": "skipped"
             },
             "line": 6,
@@ -72,7 +70,6 @@
           },
           {
             "result": {
-              "duration": 556000,
               "status": "skipped"
             },
             "line": 7,
@@ -83,7 +80,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.621Z",
+        "start_timestamp": "2021-06-22T23:45:25.114Z",
         "line": 13,
         "name": "System should authorize user with VALID credentials",
         "description": "",
@@ -102,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 702000,
+              "duration": 999800,
               "status": "skipped"
             },
             "line": 6,
@@ -112,7 +109,6 @@
           },
           {
             "result": {
-              "duration": 415000,
               "status": "skipped"
             },
             "line": 7,
@@ -123,7 +119,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.635Z",
+        "start_timestamp": "2021-06-22T23:45:25.127Z",
         "line": 24,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
@@ -142,7 +138,6 @@
           },
           {
             "result": {
-              "duration": 140000,
               "status": "skipped"
             },
             "line": 19,
@@ -152,7 +147,6 @@
           },
           {
             "result": {
-              "duration": 130000,
               "status": "skipped"
             },
             "line": 20,
@@ -163,7 +157,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.644Z",
+        "start_timestamp": "2021-06-22T23:45:25.138Z",
         "line": 25,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
@@ -182,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 128000,
+              "duration": 1000100,
               "status": "skipped"
             },
             "line": 19,
@@ -192,7 +186,6 @@
           },
           {
             "result": {
-              "duration": 130000,
               "status": "skipped"
             },
             "line": 20,
@@ -203,7 +196,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.653Z",
+        "start_timestamp": "2021-06-22T23:45:25.152Z",
         "line": 26,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
@@ -222,7 +215,6 @@
           },
           {
             "result": {
-              "duration": 176000,
               "status": "skipped"
             },
             "line": 19,
@@ -232,7 +224,6 @@
           },
           {
             "result": {
-              "duration": 126000,
               "status": "skipped"
             },
             "line": 20,
@@ -243,7 +234,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.669Z",
+        "start_timestamp": "2021-06-22T23:45:25.180Z",
         "line": 27,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
@@ -262,7 +253,6 @@
           },
           {
             "result": {
-              "duration": 760000,
               "status": "skipped"
             },
             "line": 19,
@@ -272,7 +262,6 @@
           },
           {
             "result": {
-              "duration": 724000,
               "status": "skipped"
             },
             "line": 20,
@@ -283,7 +272,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.686Z",
+        "start_timestamp": "2021-06-22T23:45:25.188Z",
         "line": 28,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
@@ -302,7 +291,6 @@
           },
           {
             "result": {
-              "duration": 292000,
               "status": "skipped"
             },
             "line": 19,
@@ -312,7 +300,6 @@
           },
           {
             "result": {
-              "duration": 125000,
               "status": "skipped"
             },
             "line": 20,
@@ -323,7 +310,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.704Z",
+        "start_timestamp": "2021-06-22T23:45:25.197Z",
         "line": 38,
         "name": "System should not authorize user if one or both entry fields is empty",
         "description": "",
@@ -342,7 +329,6 @@
           },
           {
             "result": {
-              "duration": 117000,
               "status": "skipped"
             },
             "line": 33,
@@ -352,7 +338,6 @@
           },
           {
             "result": {
-              "duration": 102000,
               "status": "skipped"
             },
             "line": 34,
@@ -363,7 +348,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.752Z",
+        "start_timestamp": "2021-06-22T23:45:25.209Z",
         "line": 39,
         "name": "System should not authorize user if one or both entry fields is empty",
         "description": "",
@@ -382,7 +367,6 @@
           },
           {
             "result": {
-              "duration": 128000,
               "status": "skipped"
             },
             "line": 33,
@@ -392,7 +376,6 @@
           },
           {
             "result": {
-              "duration": 125000,
               "status": "skipped"
             },
             "line": 34,
@@ -403,7 +386,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.774Z",
+        "start_timestamp": "2021-06-22T23:45:25.218Z",
         "line": 40,
         "name": "System should not authorize user if one or both entry fields is empty",
         "description": "",
@@ -422,7 +405,6 @@
           },
           {
             "result": {
-              "duration": 109000,
               "status": "skipped"
             },
             "line": 33,
@@ -432,7 +414,6 @@
           },
           {
             "result": {
-              "duration": 123000,
               "status": "skipped"
             },
             "line": 34,
@@ -443,9 +424,9 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.787Z",
+        "start_timestamp": "2021-06-22T23:45:25.248Z",
         "line": 42,
-        "name": "All components decribed in User story should be present on page",
+        "name": "All components decribed in User Story should be present on page",
         "description": "",
         "id": "login-functionality;all-components-decribed-in-user-story-should-be-present-on-page",
         "type": "scenario",
@@ -462,13 +443,39 @@
           },
           {
             "result": {
-              "duration": 100000,
               "status": "skipped"
             },
             "line": 45,
-            "name": "User should see",
+            "name": "User should see \"Please sign in\"",
             "match": {},
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User should see Username input box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User should see Password input box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User should see Sign in button",
+            "match": {},
+            "keyword": "And "
           }
         ]
       }
@@ -481,10 +488,152 @@
     "tags": []
   },
   {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-22T23:45:25.276Z",
+        "line": 3,
+        "name": "User successfully log out from system",
+        "description": "",
+        "id": "logout-functionality;user-successfully-log-out-from-system",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is logged in and on Home Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User clicks on LogOut button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should be directed on LogOut confirmation page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should see message \"Are you sure you want to log out?\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User clicks on log out button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User should be directed to Log In page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User should see message \"You have been signed out\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.287Z",
+        "line": 13,
+        "name": "System should allow user to stay Logged In if user navigates back from Logout confirmation page",
+        "description": "",
+        "id": "logout-functionality;system-should-allow-user-to-stay-logged-in-if-user-navigates-back-from-logout-confirmation-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User is logged in and on Home Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks on LogOut button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User should be directed on LogOut confirmation page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User click navigate back and refreshes page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User should stay on home page.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout functionality",
+    "description": "",
+    "id": "logout-functionality",
+    "keyword": "Feature",
+    "uri": "file:resources/features/LogOut.feature",
+    "tags": []
+  },
+  {
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-21T15:29:13.805Z",
+        "start_timestamp": "2021-06-22T23:45:25.297Z",
         "line": 5,
         "name": "RC-30 Verify user see result after searching with valid credential",
         "description": "",
@@ -497,56 +646,33 @@
               "status": "undefined"
             },
             "line": 7,
-            "name": "User is on login page",
+            "name": "User is on the Homepage after sign in",
             "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 109000,
               "status": "skipped"
             },
             "line": 8,
-            "name": "User enters valid \"Ulugbek\" and \"SuperUlugbek123!\" and clicks SignIn",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91000,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "user navigate the Homepage",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 141000,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "user enters a value ORPR for Symbol and actual date",
+            "name": "user enters a value \"ORPR\" for Symbol and actual \"11112021\"",
             "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 102000,
               "status": "skipped"
             },
-            "line": 11,
+            "line": 9,
             "name": "user click Search,",
             "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 98000,
               "status": "skipped"
             },
-            "line": 12,
+            "line": 10,
             "name": "user should be able to filter on the listed trades.",
             "match": {},
             "keyword": "Then "
@@ -559,8 +685,8 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-21T15:29:13.840Z",
-        "line": 14,
+        "start_timestamp": "2021-06-22T23:45:25.307Z",
+        "line": 12,
         "name": "RC-34 Verify user see empty page after searching with invalid credential (empty inputs)",
         "description": "",
         "id": "rc-6-search-functionality;rc-34-verify-user-see-empty-page-after-searching-with-invalid-credential-(empty-inputs)",
@@ -571,58 +697,148 @@
             "result": {
               "status": "undefined"
             },
-            "line": 15,
-            "name": "User is on login page",
+            "line": 13,
+            "name": "User is on the Homepage after sign in",
             "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 118000,
               "status": "skipped"
             },
-            "line": 16,
-            "name": "User enters valid \"Ulugbek\" and \"SuperUlugbek123!\" and clicks SignIn",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 82000,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "user navigate the Homepage",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 74000,
-              "status": "skipped"
-            },
-            "line": 18,
+            "line": 14,
             "name": "verify if input field symbol and date is empty",
             "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 80000,
               "status": "skipped"
             },
-            "line": 19,
+            "line": 15,
             "name": "user click Search,",
             "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 76000,
               "status": "skipped"
             },
-            "line": 20,
+            "line": 16,
             "name": "user should be able to see all existing stocks",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.323Z",
+        "line": 18,
+        "name": "RC-35 Verification that search functionality elements located according requirements",
+        "description": "",
+        "id": "rc-6-search-functionality;rc-35-verification-that-search-functionality-elements-located-according-requirements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Verify if search button displayed on the page.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Verify if input symbol has default background text.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Verify input date has default background text.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Verify search button is Enabled.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.350Z",
+        "line": 27,
+        "name": "RC-33 Verify if user sees empty page after searching with credentials that does not exist in table",
+        "description": "",
+        "id": "rc-6-search-functionality;rc-33-verify-if-user-sees-empty-page-after-searching-with-credentials-that-does-not-exist-in-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user enters a value \"JHDKS\" for Symbol and actual \"11112021\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user click Search,",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "System should displays only empty table.",
             "match": {},
             "keyword": "Then "
           }
@@ -649,5 +865,512 @@
         }
       }
     ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-22T23:45:25.366Z",
+        "line": 4,
+        "name": "User should be able to be directed to the home page by clicking on logo",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-be-directed-to-the-home-page-by-clicking-on-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Logo is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks on logo",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should be able to be directed to the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.378Z",
+        "line": 10,
+        "name": "User should be able to be directed to the home page by clicking on home tab, located to the right side of the logo",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-be-directed-to-the-home-page-by-clicking-on-home-tab--located-to-the-right-side-of-the-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "home tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User clicks on home tab",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.385Z",
+        "line": 16,
+        "name": "User should be able to navigate to Finom Group website",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-finom-group-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Finom Group tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 995600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User click on Finom Group tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should be able to navigate to Finom Group website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.396Z",
+        "line": 23,
+        "name": "User should be able to navigate to  PrimeTech_SDET_Batch1 slack channel.",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to--primetech-sdet-batch1-slack-channel.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Slack Channel tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User click on Slack Channel tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User should be able to navigate to PrimeTech_SDET_Batch1 slack channel",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.406Z",
+        "line": 29,
+        "name": "User should be able to navigate to Tools dropdown window",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-tools-dropdown-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Tools tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User click on Tools tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should see Tools dropdown window",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User click on Options Calculator tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should be able to navigate to Options Calculatior page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.416Z",
+        "line": 38,
+        "name": "User should be able to navigate to Tools dropdown window",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-tools-dropdown-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "User clicks on Todays Market info tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User should be able to navigate to Finviz website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.421Z",
+        "line": 43,
+        "name": "User should be able to navigate to Tools dropdown window",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-tools-dropdown-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User click on Vol ETF/ETN Price converter tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User should be able to navigate to Vol ETF/ETN Price converter page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.434Z",
+        "line": 49,
+        "name": "User should be able to see Symbol search box, located to the right side of Tools tab",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-symbol-search-box--located-to-the-right-side-of-tools-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Symbol search box is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.441Z",
+        "line": 54,
+        "name": "User should be able to see textbox mm/dd/yyyy and calender date picker, located to the right side of Symbol search box",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-textbox-mm/dd/yyyy-and-calender-date-picker--located-to-the-right-side-of-symbol-search-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "textbox mm/dd/yyyy and calender date picker is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.447Z",
+        "line": 59,
+        "name": "User should be able to see Search button, located to the right side of textbox mm/dd/yyyy",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-search-button--located-to-the-right-side-of-textbox-mm/dd/yyyy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Search button is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.454Z",
+        "line": 64,
+        "name": "User should be able to see Logout button, located to the right side of Search button",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-logout-button--located-to-the-right-side-of-search-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "Logout button is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.458Z",
+        "line": 69,
+        "name": "User should be able to see Add trade button, located underneath the global header.",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-add-trade-button--located-underneath-the-global-header.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "Add trade button is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.463Z",
+        "line": 74,
+        "name": "User should be able to see names of each column on table",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-names-of-each-column-on-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 75,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "User should see able to all data table column names",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stock Trade homepage components verification",
+    "description": "",
+    "id": "stock-trade-homepage-components-verification",
+    "keyword": "Feature",
+    "uri": "file:resources/features/homePage.feature",
+    "tags": []
   }
 ]
