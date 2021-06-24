@@ -1,8 +1,8 @@
 package pages;
 
 public class AdditionalPages {
-    public final String finomTitle ="Home - Finom Group";
-    public final String slackTitle ="Slack";
-    public final String calculatorTitle = "The Options Industry Council (OIC) - Optionscalculator";
-    public final String finvizTitle ="FINVIZ.com - Stock Screener";
+    public final String finomLink ="https://www.finomgroup.com/";
+    public final String slackLink ="https://primetech-sdet-batch1.slack.com/";
+    public final String calculatorLink = "https://www.optionseducation.org/toolsoptionquotes/optionscalculator";
+    public final String finvizLink ="https://finviz.com/";
 }

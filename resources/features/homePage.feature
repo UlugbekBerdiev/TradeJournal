@@ -26,21 +26,22 @@ Feature: Stock Trade homepage components verification
     When User click on Slack Channel tab
     Then User should be able to navigate to PrimeTech_SDET_Batch1 slack channel
 
-  Scenario: User should be able to navigate to Tools dropdown window
+  Scenario: User should be able to navigate to Tools dropdown window and navigate to to Options Calculator page
     Given User is on the Homepage after sign in
     Then Tools tab is displayed
-
+    When User click on Tools tab
     Then User should see Tools dropdown window
     And User click on Options Calculator tab
-    Then User should be able to navigate to Options Calculatior page
+    Then User should be able to navigate to Options Calculator page
 
 
-  Scenario: User should be able to navigate to Tools dropdown window
+  Scenario: User should be able to navigate to Finviz website
     Given  User is on the Homepage after sign in
+    Then User click on Tools tab
     When User clicks on Todays Market info tab
     Then User should be able to navigate to Finviz website
 
-  Scenario: User should be able to navigate to Tools dropdown window
+  Scenario: User should be able to navigate to Vol ETF/ETN Price converter page
     Given User is on the Homepage after sign in
     And User click on Vol ETF/ETN Price converter tab
     Then User should be able to navigate to Vol ETF/ETN Price converter page

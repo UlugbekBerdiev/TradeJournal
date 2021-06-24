@@ -1,15 +1,14 @@
 package utils;
 
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static org.junit.Assert.assertFalse;
 
 public class BrowserUtils {
 
@@ -73,6 +72,22 @@ public class BrowserUtils {
     public void waitUntilElementVisible(WebElement element) {
         letswait = new WebDriverWait(Driver.getDriver(), 10);
         letswait.until(ExpectedConditions.visibilityOf(element));
+    }
+    public static void switchToNewWindow(){
+        // Switch to new window opened
+        for(String winHandle : Driver.getDriver().getWindowHandles()){
+            Driver.getDriver().switchTo().window(winHandle);
+        }}
+    public static void switchBackToOriginWindow(String originWindow) {
+        // Close the new window, if that window no more required
+        Driver.getDriver().close();
+        // Switch back to original browser (first window)
+        Driver.getDriver().switchTo().window( originWindow );
+
+    }
+    public static void clickWithJS(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
     }
 }
 

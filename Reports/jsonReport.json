@@ -1,1062 +1,481 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-22T21:09:48.359Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3611154000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 12,
+        "start_timestamp": "2021-06-22T23:45:24.990Z",
+        "line": 11,
         "name": "System should authorize user with VALID credentials",
         "description": "",
         "id": "login-functionality;system-should-authorize-user-with-valid-credentials;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 128003000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 200670000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
+            "line": 5,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1010229000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 6,
             "name": "User enters valid \"Dmitry\" and \"SuperDmitry123!\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Dmitry\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"SuperDmitry123!\"",
-                  "offset": 31
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_valid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5293000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 7,
             "name": "User should be directed to home page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_be_directed_to_home_page()"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:09:53.390Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2250246000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 13,
+        "start_timestamp": "2021-06-22T23:45:25.093Z",
+        "line": 12,
         "name": "System should authorize user with VALID credentials",
         "description": "",
         "id": "login-functionality;system-should-authorize-user-with-valid-credentials;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 106794000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 140049000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
+            "line": 5,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 846312000,
-              "status": "passed"
+              "duration": 999100,
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 6,
             "name": "User enters valid \"Abiba\" and \"SuperAbiba123!\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Abiba\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"SuperAbiba123!\"",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_valid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 9602000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 7,
             "name": "User should be directed to home page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_be_directed_to_home_page()"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:09:56.762Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2089921000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 14,
+        "start_timestamp": "2021-06-22T23:45:25.114Z",
+        "line": 13,
         "name": "System should authorize user with VALID credentials",
         "description": "",
         "id": "login-functionality;system-should-authorize-user-with-valid-credentials;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 148317000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 147060000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
+            "line": 5,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 864283000,
-              "status": "passed"
+              "duration": 999800,
+              "status": "skipped"
             },
-            "line": 7,
+            "line": 6,
             "name": "User enters valid \"Ulugbek\" and \"SuperUlugbek123!\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ulugbek\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"SuperUlugbek123!\"",
-                  "offset": 32
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_valid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4926000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 7,
             "name": "User should be directed to home page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_be_directed_to_home_page()"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:00.038Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2071454000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 25,
+        "start_timestamp": "2021-06-22T23:45:25.127Z",
+        "line": 24,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
         "id": "login-functionality;system-shouldn-t-authorize-user-with-invalid-credentials;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 117832000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 137725000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 408732000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 19,
             "name": "User enters invalid \"Dmitry\" and \"Orange\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Dmitry\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"Orange\"",
-                  "offset": 33
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 26561000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 21,
+            "line": 20,
             "name": "User should see alert message \"Bad credentials\" and stay on login page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bad credentials\"",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_alert_message_and_stay_on_login_page(java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:02.819Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2048254000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 26,
+        "start_timestamp": "2021-06-22T23:45:25.138Z",
+        "line": 25,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
         "id": "login-functionality;system-shouldn-t-authorize-user-with-invalid-credentials;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 107749000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 139009000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 429094000,
-              "status": "passed"
+              "duration": 1000100,
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 19,
             "name": "User enters invalid \"Orange\" and \"SuperDmitry123!\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Orange\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"SuperDmitry123!\"",
-                  "offset": 33
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 29455000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 21,
+            "line": 20,
             "name": "User should see alert message \"Bad credentials\" and stay on login page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bad credentials\"",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_alert_message_and_stay_on_login_page(java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:05.588Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2121328000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 27,
+        "start_timestamp": "2021-06-22T23:45:25.152Z",
+        "line": 26,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
         "id": "login-functionality;system-shouldn-t-authorize-user-with-invalid-credentials;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 105358000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 127127000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 421479000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 19,
             "name": "User enters invalid \"Ulugbek\" and \"SuperDmitry123!\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Ulugbek\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"SuperDmitry123!\"",
-                  "offset": 34
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 32888000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 21,
+            "line": 20,
             "name": "User should see alert message \"Bad credentials\" and stay on login page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bad credentials\"",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_alert_message_and_stay_on_login_page(java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:08.413Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2217514000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 28,
+        "start_timestamp": "2021-06-22T23:45:25.180Z",
+        "line": 27,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
         "id": "login-functionality;system-shouldn-t-authorize-user-with-invalid-credentials;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 116776000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 153601000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 409287000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 19,
             "name": "User enters invalid \"!@#$%^\u0026*()\" and \"!@#$%^\u0026*()\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"!@#$%^\u0026*()\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"!@#$%^\u0026*()\"",
-                  "offset": 37
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 26782000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 21,
+            "line": 20,
             "name": "User should see alert message \"Bad credentials\" and stay on login page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bad credentials\"",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_alert_message_and_stay_on_login_page(java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:11.350Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2161371000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 29,
+        "start_timestamp": "2021-06-22T23:45:25.188Z",
+        "line": 28,
         "name": "System shouldn\u0027t authorize user with INVALID credentials",
         "description": "",
         "id": "login-functionality;system-shouldn-t-authorize-user-with-invalid-credentials;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 106131000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 146049000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 457715000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 19,
             "name": "User enters invalid \"!@#$%123456\" and \"1234567#$%^\u0026*\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"!@#$%123456\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"1234567#$%^\u0026*\"",
-                  "offset": 38
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 29702000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 21,
+            "line": 20,
             "name": "User should see alert message \"Bad credentials\" and stay on login page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bad credentials\"",
-                  "offset": 30
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_alert_message_and_stay_on_login_page(java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:14.266Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2252525000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 39,
+        "start_timestamp": "2021-06-22T23:45:25.197Z",
+        "line": 38,
         "name": "System should not authorize user if one or both entry fields is empty",
         "description": "",
         "id": "login-functionality;system-should-not-authorize-user-if-one-or-both-entry-fields-is-empty;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 115659000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 139241000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 33,
+            "line": 32,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 230302000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 34,
+            "line": 33,
             "name": "User enters invalid \"\" and \"SuperDmitry123!\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"SuperDmitry123!\"",
-                  "offset": 27
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 10791000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 35,
-            "name": "User should stay on LogIn page.",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_log_in_page()"
-            },
+            "line": 34,
+            "name": "User should stay on home page.",
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:17.027Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2080546000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 40,
+        "start_timestamp": "2021-06-22T23:45:25.209Z",
+        "line": 39,
         "name": "System should not authorize user if one or both entry fields is empty",
         "description": "",
         "id": "login-functionality;system-should-not-authorize-user-if-one-or-both-entry-fields-is-empty;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 106650000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 129478000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 33,
+            "line": 32,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 211364000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 34,
+            "line": 33,
             "name": "User enters invalid \"Dmitry\" and \"\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Dmitry\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 33
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4527000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 35,
-            "name": "User should stay on LogIn page.",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_log_in_page()"
-            },
+            "line": 34,
+            "name": "User should stay on home page.",
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:19.568Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2255551000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 41,
+        "start_timestamp": "2021-06-22T23:45:25.218Z",
+        "line": 40,
         "name": "System should not authorize user if one or both entry fields is empty",
         "description": "",
         "id": "login-functionality;system-should-not-authorize-user-if-one-or-both-entry-fields-is-empty;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 114945000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 143960000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 33,
+            "line": 32,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 157315000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 34,
+            "line": 33,
             "name": "User enters invalid \"\" and \"\" and clicks SignIn",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 27
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_enters_invalid_and_and_clicks_sign_in(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5281000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 35,
-            "name": "User should stay on LogIn page.",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_log_in_page()"
-            },
+            "line": 34,
+            "name": "User should stay on home page.",
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:22.257Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2401761000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 43,
+        "start_timestamp": "2021-06-22T23:45:25.248Z",
+        "line": 42,
         "name": "All components decribed in User Story should be present on page",
         "description": "",
         "id": "login-functionality;all-components-decribed-in-user-story-should-be-present-on-page",
-        "after": [
-          {
-            "result": {
-              "duration": 98036000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 142411000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 45,
+            "line": 44,
             "name": "User is on login page",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_is_on_login_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 15915000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 46,
+            "line": 45,
             "name": "User should see \"Please sign in\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Please sign in\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see(java.lang.String)"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 54609000,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User should see Username input box",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 47,
-            "name": "User should see Username input box",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_username_input_box()"
-            },
+            "name": "User should see Password input box",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 26300000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 48,
-            "name": "User should see Password input box",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_password_input_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 23688000,
-              "status": "passed"
-            },
-            "line": 49,
             "name": "User should see Sign in button",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_see_sign_in_button()"
-            },
+            "match": {},
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       }
@@ -1066,249 +485,139 @@
     "id": "login-functionality",
     "keyword": "Feature",
     "uri": "file:resources/features/LogIn.feature",
-    "tags": [
-      {
-        "name": "@Smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   },
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-06-22T21:10:25.032Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2110513000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 4,
+        "start_timestamp": "2021-06-22T23:45:25.276Z",
+        "line": 3,
         "name": "User successfully log out from system",
         "description": "",
         "id": "logout-functionality;user-successfully-log-out-from-system",
-        "after": [
-          {
-            "result": {
-              "duration": 111371000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1018215000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
-            "name": "User is on the Homepage after sign in",
-            "match": {
-              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
-            },
+            "line": 5,
+            "name": "User is logged in and on Home Page",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1110225000,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User clicks on LogOut button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 7,
-            "name": "User clicks on LogOut button",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_clicks_on_log_out_button()"
-            },
-            "keyword": "When "
+            "name": "User should be directed on LogOut confirmation page",
+            "match": {},
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1010275000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
-            "name": "User should be directed on LogOut confirmation page",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_should_be_directed_on_log_out_confirmation_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1021552000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User should see header \"Are you sure you want to log out?\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Are you sure you want to log out?\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepDefinitions.Logout_Steps_Definition.user_should_see_header(java.lang.String)"
-            },
+            "name": "User should see message \"Are you sure you want to log out?\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 139888000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
-            "name": "User clicks on LogOut Confirmation button",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_clicks_on_log_out_confirmation_button()"
-            },
+            "line": 9,
+            "name": "User clicks on log out button",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1004553000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 10,
             "name": "User should be directed to Log In page",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_should_be_directed_to_log_in_page()"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 25057000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 11,
             "name": "User should see message \"You have been signed out\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"You have been signed out\"",
-                  "offset": 24
-                }
-              ],
-              "location": "stepDefinitions.Logout_Steps_Definition.user_should_see_message(java.lang.String)"
-            },
+            "match": {},
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:32.602Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2512590000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
-        "line": 14,
+        "start_timestamp": "2021-06-22T23:45:25.287Z",
+        "line": 13,
         "name": "System should allow user to stay Logged In if user navigates back from Logout confirmation page",
         "description": "",
         "id": "logout-functionality;system-should-allow-user-to-stay-logged-in-if-user-navigates-back-from-logout-confirmation-page",
-        "after": [
-          {
-            "result": {
-              "duration": 119782000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1053188000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 16,
-            "name": "User is on the Homepage after sign in",
-            "match": {
-              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
-            },
+            "line": 15,
+            "name": "User is logged in and on Home Page",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1124196000,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks on LogOut button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 17,
-            "name": "User clicks on LogOut button",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_clicks_on_log_out_button()"
-            },
-            "keyword": "When "
+            "name": "User should be directed on LogOut confirmation page",
+            "match": {},
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1010353000,
-              "status": "passed"
+              "duration": 1000700,
+              "status": "skipped"
             },
             "line": 18,
-            "name": "User should be directed on LogOut confirmation page",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_should_be_directed_on_log_out_confirmation_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2212430000,
-              "status": "passed"
-            },
-            "line": 19,
             "name": "User click navigate back and refreshes page",
-            "match": {
-              "location": "stepDefinitions.Logout_Steps_Definition.user_click_navigate_back_and_refreshes_page()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2010504000,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 20,
+            "line": 19,
             "name": "User should stay on home page.",
-            "match": {
-              "location": "stepDefinitions.Login_Steps_Definition.user_should_stay_on_home_page()"
-            },
+            "match": {},
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Smoke"
           }
         ]
       }
@@ -1318,107 +627,54 @@
     "id": "logout-functionality",
     "keyword": "Feature",
     "uri": "file:resources/features/LogOut.feature",
-    "tags": [
-      {
-        "name": "@Smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   },
   {
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-22T21:10:42.659Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2138969000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-06-22T23:45:25.297Z",
         "line": 5,
         "name": "RC-30 Verify user see result after searching with valid credential",
         "description": "",
         "id": "rc-6-search-functionality;rc-30-verify-user-see-result-after-searching-with-valid-credential",
-        "after": [
-          {
-            "result": {
-              "duration": 106536000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1037189000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "User is on the Homepage after sign in",
-            "match": {
-              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 114929000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "user enters a value \"ORPR\" for Symbol and actual \"11112021\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ORPR\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"11112021\"",
-                  "offset": 49
-                }
-              ],
-              "location": "stepDefinitions.SearchTests.user_enters_a_value_orpr_for_symbol_and_actual_date(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 127594000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "user click Search,",
-            "match": {
-              "location": "stepDefinitions.SearchTests.user_click_search()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 25108000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user should be able to filter on the listed trades.",
-            "match": {
-              "location": "stepDefinitions.SearchTests.user_should_be_able_to_filter_on_the_listed_trades()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -1429,82 +685,48 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:46.225Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2130451000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-06-22T23:45:25.307Z",
         "line": 12,
         "name": "RC-34 Verify user see empty page after searching with invalid credential (empty inputs)",
         "description": "",
         "id": "rc-6-search-functionality;rc-34-verify-user-see-empty-page-after-searching-with-invalid-credential-(empty-inputs)",
-        "after": [
-          {
-            "result": {
-              "duration": 97378000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1150000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 13,
             "name": "User is on the Homepage after sign in",
-            "match": {
-              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 37899000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "verify if input field symbol and date is empty",
-            "match": {
-              "location": "stepDefinitions.SearchTests.verify_if_input_field_symbol_and_date_is_empty()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 185845000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user click Search,",
-            "match": {
-              "location": "stepDefinitions.SearchTests.user_click_search()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 47971000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user should be able to see all existing stocks",
-            "match": {
-              "location": "stepDefinitions.SearchTests.user_should_be_able_to_see_onle_header_of_table()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -1515,94 +737,57 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:49.884Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2098431000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-06-22T23:45:25.323Z",
         "line": 18,
         "name": "RC-35 Verification that search functionality elements located according requirements",
         "description": "",
         "id": "rc-6-search-functionality;rc-35-verification-that-search-functionality-elements-located-according-requirements",
-        "after": [
-          {
-            "result": {
-              "duration": 98648000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 875781000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 20,
             "name": "User is on the Homepage after sign in",
-            "match": {
-              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 23953000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "Verify if search button displayed on the page.",
-            "match": {
-              "location": "stepDefinitions.SearchTests.verify_if_search_button_displayed_on_the_page()"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 15719000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "Verify if input symbol has default background text.",
-            "match": {
-              "location": "stepDefinitions.SearchTests.verify_if_input_symbol_has_default_background_text()"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 19835000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "Verify input date has default background text.",
-            "match": {
-              "location": "stepDefinitions.SearchTests.verify_input_date_has_default_background_text()"
-            },
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 13734000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "Verify search button is Enabled.",
-            "match": {
-              "location": "stepDefinitions.SearchTests.verify_search_button_is_enabled()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -1613,92 +798,48 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-22T21:10:53.039Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2056991000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.before()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-06-22T23:45:25.350Z",
         "line": 27,
         "name": "RC-33 Verify if user sees empty page after searching with credentials that does not exist in table",
         "description": "",
         "id": "rc-6-search-functionality;rc-33-verify-if-user-sees-empty-page-after-searching-with-credentials-that-does-not-exist-in-table",
-        "after": [
-          {
-            "result": {
-              "duration": 124517000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1268044000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 29,
             "name": "User is on the Homepage after sign in",
-            "match": {
-              "location": "stepDefinitions.SearchTests.User_is_on_the_Homepage_after_sign_in()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 117882000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 30,
             "name": "user enters a value \"JHDKS\" for Symbol and actual \"11112021\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"JHDKS\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"11112021\"",
-                  "offset": 50
-                }
-              ],
-              "location": "stepDefinitions.SearchTests.user_enters_a_value_orpr_for_symbol_and_actual_date(java.lang.String,java.lang.String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 130995000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 31,
             "name": "user click Search,",
-            "match": {
-              "location": "stepDefinitions.SearchTests.user_click_search()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 10069443000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 32,
             "name": "System should displays only empty table.",
-            "match": {
-              "location": "stepDefinitions.SearchTests.System_should_displays_only_empty_table()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -1724,5 +865,512 @@
         }
       }
     ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-22T23:45:25.366Z",
+        "line": 4,
+        "name": "User should be able to be directed to the home page by clicking on logo",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-be-directed-to-the-home-page-by-clicking-on-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Logo is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks on logo",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should be able to be directed to the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.378Z",
+        "line": 10,
+        "name": "User should be able to be directed to the home page by clicking on home tab, located to the right side of the logo",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-be-directed-to-the-home-page-by-clicking-on-home-tab--located-to-the-right-side-of-the-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "home tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User clicks on home tab",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.385Z",
+        "line": 16,
+        "name": "User should be able to navigate to Finom Group website",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-finom-group-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Finom Group tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 995600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User click on Finom Group tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should be able to navigate to Finom Group website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.396Z",
+        "line": 23,
+        "name": "User should be able to navigate to  PrimeTech_SDET_Batch1 slack channel.",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to--primetech-sdet-batch1-slack-channel.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Slack Channel tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User click on Slack Channel tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User should be able to navigate to PrimeTech_SDET_Batch1 slack channel",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.406Z",
+        "line": 29,
+        "name": "User should be able to navigate to Tools dropdown window",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-tools-dropdown-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Tools tab is displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User click on Tools tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should see Tools dropdown window",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User click on Options Calculator tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should be able to navigate to Options Calculatior page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.416Z",
+        "line": 38,
+        "name": "User should be able to navigate to Tools dropdown window",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-tools-dropdown-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "User clicks on Todays Market info tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "User should be able to navigate to Finviz website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.421Z",
+        "line": 43,
+        "name": "User should be able to navigate to Tools dropdown window",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-navigate-to-tools-dropdown-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "User click on Vol ETF/ETN Price converter tab",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "User should be able to navigate to Vol ETF/ETN Price converter page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.434Z",
+        "line": 49,
+        "name": "User should be able to see Symbol search box, located to the right side of Tools tab",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-symbol-search-box--located-to-the-right-side-of-tools-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Symbol search box is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.441Z",
+        "line": 54,
+        "name": "User should be able to see textbox mm/dd/yyyy and calender date picker, located to the right side of Symbol search box",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-textbox-mm/dd/yyyy-and-calender-date-picker--located-to-the-right-side-of-symbol-search-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "textbox mm/dd/yyyy and calender date picker is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.447Z",
+        "line": 59,
+        "name": "User should be able to see Search button, located to the right side of textbox mm/dd/yyyy",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-search-button--located-to-the-right-side-of-textbox-mm/dd/yyyy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Search button is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.454Z",
+        "line": 64,
+        "name": "User should be able to see Logout button, located to the right side of Search button",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-logout-button--located-to-the-right-side-of-search-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "Logout button is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.458Z",
+        "line": 69,
+        "name": "User should be able to see Add trade button, located underneath the global header.",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-add-trade-button--located-underneath-the-global-header.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "Add trade button is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T23:45:25.463Z",
+        "line": 74,
+        "name": "User should be able to see names of each column on table",
+        "description": "",
+        "id": "stock-trade-homepage-components-verification;user-should-be-able-to-see-names-of-each-column-on-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 75,
+            "name": "User is on the Homepage after sign in",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "User should see able to all data table column names",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stock Trade homepage components verification",
+    "description": "",
+    "id": "stock-trade-homepage-components-verification",
+    "keyword": "Feature",
+    "uri": "file:resources/features/homePage.feature",
+    "tags": []
   }
 ]
