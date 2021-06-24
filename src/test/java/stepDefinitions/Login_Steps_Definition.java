@@ -61,6 +61,7 @@ public class Login_Steps_Definition {
     }
     @Then("User should see Sign in button")
     public void user_should_see_sign_in_button() {
+
         Assert.assertTrue(BrowserUtils.isPresent(loginPage.signInButton));
     }
     @Then("User should stay on LogIn page.")
