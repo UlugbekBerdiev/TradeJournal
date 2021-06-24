@@ -62,7 +62,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>**/SmokeTestRunners.java</include>
+                        <include>**/SmokeTestRunner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
