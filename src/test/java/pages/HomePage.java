@@ -79,42 +79,42 @@ public class HomePage {
     public WebElement toolsDropDown;
     
     //created by Dilmira
-    @FindBy(xpath= ("//th[@class='_web-inspector-hide-shortcut_']"))
+    @FindBy(xpath= ("//th[text()='Action'][1]"))
 	public WebElement actionCol;
 	
     //created by Dilmira
-	@FindBy(xpath= ("//th[@style='width: 150px; word-wrap: break-word']"))
+	@FindBy(xpath= "//th[text()='Symbol'][1]")
 	public WebElement symbolCol;
 	
-	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Open date']"))
+	@FindBy(xpath = "//th[text()='Open date'][1]")
 	public WebElement openDateCol;
 	
-	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Entry']"))
+	@FindBy(xpath = "//th[text()='Entry']")
 	public WebElement entryCol;
 	
-	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Close date]"))
+	@FindBy(xpath = "//th[text()='Close date']")
 	public WebElement closeDateCol;
 	
-	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Exit']"))
+	@FindBy(xpath = "//th[text()='Exit']")
 	public WebElement exitCol;
 	
-	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Gain/Loss']"))
+	@FindBy(xpath = "//th[text()='Gain/Loss']")
 	public WebElement gainLossCol;
 	
-	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Action'][2]"))
+	@FindBy(xpath = ("//th[text()='Action'][2]"))
 	public WebElement action2Col;
 
     @FindBy(xpath = ("//title[text()='Home - Finom Group']"))
     public WebElement finomGroupPageLogo;
+
     @FindBy(xpath = ("//head[@id='head']/title"))
     public WebElement calculatorPageLogo;
+
     @FindBy(xpath = ("//a[@class='logo']"))
     public WebElement finwizPageLogo;
-    
-    //====== Mamatweli - Update Function
+
     @FindBy(xpath = ("//a[contains(text(), 'Update')]"))
-  
-     public List<WebElement> updatebtn;
+    public List<WebElement> updatebtn;
 
 }
 

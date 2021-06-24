@@ -25,6 +25,7 @@ Assert.assertTrue(homepage.logo.isDisplayed());
     }
     @Then("User should be able to be directed to the home page")
     public void user_should_be_able_to_be_directed_to_the_home_page() {
+        BrowserUtils.wait(1);
         Assert.assertEquals(homepage.pageTitle, Driver.getDriver().getTitle());
     }
 

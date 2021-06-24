@@ -1,4 +1,4 @@
-
+@Smoke
 Feature: Delete Button Functionality
 			
 			User should be able to delete stocks from the table view and data base
