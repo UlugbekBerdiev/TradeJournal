@@ -77,22 +77,33 @@ public class HomePage {
     public WebElement addTradeButton;
     @FindBy(xpath = "//div[@aria-labelledby='navbarDropdown']")
     public WebElement toolsDropDown;
-    @FindBy(css = (" thead tr th:nth-child(1)"))
-    public WebElement actionCol;
-    @FindBy(xpath= ("//th[@style='width: 150px; word-wrap: break-word']"))
-    public WebElement symbolCol;
-    @FindBy(css = (" thead tr th:nth-child(3)"))
-    public WebElement openDateCol;
-    @FindBy(css = (" thead tr th:nth-child(4)"))
-    public WebElement entryCol;
-    @FindBy(css = (" thead tr th:nth-child(5)"))
-    public WebElement closeDateCol;
-    @FindBy(css = (" thead tr th:nth-child(6)"))
-    public WebElement exitCol;
-    @FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Gain/Loss']"))
-    public WebElement gainLossCol;
-    @FindBy(css = (" thead tr th:nth-child(8)"))
-    public WebElement action2Col;
+    
+    //created by Dilmira
+    @FindBy(xpath= ("//th[@class='_web-inspector-hide-shortcut_']"))
+	public WebElement actionCol;
+	
+    //created by Dilmira
+	@FindBy(xpath= ("//th[@style='width: 150px; word-wrap: break-word']"))
+	public WebElement symbolCol;
+	
+	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Open date']"))
+	public WebElement openDateCol;
+	
+	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Entry']"))
+	public WebElement entryCol;
+	
+	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Close date]"))
+	public WebElement closeDateCol;
+	
+	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Exit']"))
+	public WebElement exitCol;
+	
+	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Gain/Loss']"))
+	public WebElement gainLossCol;
+	
+	@FindBy(xpath = ("//thead[@class='thead-dark']//th[text()='Action'][2]"))
+	public WebElement action2Col;
+
     @FindBy(xpath = ("//title[text()='Home - Finom Group']"))
     public WebElement finomGroupPageLogo;
     @FindBy(xpath = ("//head[@id='head']/title"))
