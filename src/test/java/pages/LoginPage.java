@@ -29,4 +29,5 @@ public class LoginPage {
 
 
     public final String pageTitle = "Please sign in";
+
 }
