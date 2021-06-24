@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,11 +15,8 @@ public class HomePage {
 
     public final String pageTitle = "Transactions";
 
-<<<<<<< HEAD
     @FindBy(xpath = "//button[text()=\"Logout\"]")
     public WebElement signOutButton;
-=======
->>>>>>> Liubomyr
 
     //Created by Beka
     @FindBy(xpath = "//a[text()='Home ']")
@@ -45,6 +43,12 @@ public class HomePage {
 
     @FindBy(xpath = "//tr")
     public List<WebElement> ListOfAllRowsFromTable;
+//created by Hakan
+    @FindBy(xpath = "//table[@class = 'table table-bordered table-striped']")
+    public WebElement tableView;
+    @FindBy(xpath = "//a[@class = 'btn btn-danger btn-sm']")
+    public WebElement deleteButton;
+}
 
     //created by Liubomyr
     @FindBy (xpath= "//img[@src='https://www.pinclipart.com/picdir/middle/11-111719_clipart-arrows-graph-trading-icon-png-download.png']")
