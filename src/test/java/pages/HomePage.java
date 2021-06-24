@@ -99,6 +99,12 @@ public class HomePage {
     public WebElement calculatorPageLogo;
     @FindBy(xpath = ("//a[@class='logo']"))
     public WebElement finwizPageLogo;
+    
+    //====== Mamatweli - Update Function
+    @FindBy(xpath = ("//a[contains(text(), 'Update')]"))
+  
+     public List<WebElement> updatebtn;
+
 }
 
 
